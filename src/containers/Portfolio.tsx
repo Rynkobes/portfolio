@@ -9,7 +9,6 @@ const Portfolio: React.FC = () => {
         <Flex 
           h='100vh'
           w='100vw'
-          border='1px solid tomato'
         >
           <LandingSection />
         </Flex>

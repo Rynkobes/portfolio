@@ -10,7 +10,6 @@ const LandingSection: React.FC = () => {
     <Flex 
       alignItems='center'
       justifyContent='center'
-      border='1px solid green'
       w='100%'
     >
       <Box boxSize='200px'>
