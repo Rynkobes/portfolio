@@ -19,9 +19,9 @@ const LandingSection: React.FC = () => {
         boxShadow='md'
         ml={1}
         />
-        <Box boxSize='215px' borderRadius='50%' bgColor='#64040778'mt='-108%' ml={5}/>
-        <Box boxSize='215px' borderRadius='50%' bgColor='#6404076f'mt='-108%' ml={3}/>
-        <Box boxSize='215px' borderRadius='50%' bgColor='#6404074e'mt='-108%' ml={1}/>
+        <Box boxSize='215px' borderRadius='50%' bgColor='#0099ff47'mt='-108%' ml={5}/>
+        <Box boxSize='215px' borderRadius='50%' bgColor='#0099ff6d'mt='-108%' ml={3}/>
+        <Box boxSize='215px' borderRadius='50%' bgColor='#0099ff6d'mt='-108%' ml={1}/>
       </Box>
       <Flex
         flexDir='column'
@@ -33,15 +33,15 @@ const LandingSection: React.FC = () => {
         </Text>
         <Text pt={3} pb={3} color='#696969'>{bio}</Text>
         <Flex mt={5}>
-          <Button bgColor='#640408' color='#fff' mr={20}>Resume</Button>
+          <Button bgColor='#0099ff' color='#fff' mr={20}>Resume</Button>
           <Flex>
             <Link href={linkedInUrl} isExternal>
-              <Flex ml={5} boxShadow='md' boxSize='40px' align='center' justify='center' color='red.900' ><AiFillLinkedin size='25px' /></Flex>
+              <Flex ml={5} boxShadow='md' boxSize='40px' align='center' justify='center' color='#0099ff' ><AiFillLinkedin size='25px' /></Flex>
             </Link>
             <Link href={gitHubUrl} isExternal>
-              <Flex ml={5} boxShadow='md' boxSize='40px' align='center' justify='center' color='red.900' ><AiOutlineGithub size='25px' color='#34355'  /></Flex>
+              <Flex ml={5} boxShadow='md' boxSize='40px' align='center' justify='center' color='#0099ff' ><AiOutlineGithub size='25px' color='#34355'  /></Flex>
             </Link>
-            <Flex ml={5} boxShadow='md' boxSize='40px' align='center' justify='center' color='red.900' ><AiOutlineTwitter size='25px' color='#34355' /></Flex>
+            <Flex ml={5} boxShadow='md' boxSize='40px' align='center' justify='center' color='#0099ff' ><AiOutlineTwitter size='25px' color='#34355' /></Flex>
           </Flex>
         </Flex>
       </Flex>
