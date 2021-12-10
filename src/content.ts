@@ -6,7 +6,7 @@ export const bio = `I Work as a Front-End Web Developer. Love JavaScript, everyt
  tools that improve efficiency and productivity while keeping the business secure.
 `
 
-export const linkedInUrl = `https://www.linkedin.com/in/terry-bartels-204731125/`
+export const linkedInUrl = `https://www.linkedin.com/in/terry-bartels-204731125`
 export const gitHubUrl = `https://github.com/Rynkobes`
 export const twitterUrl = ``
 
@@ -22,3 +22,12 @@ problems through code. My education, training and experience gives me a strong f
 and building complex solutions. I am always excieted to work alongside other amazing 
 engineers and to learn so much more.
 `
+
+export const cashewDesc = [ `Uses webflow with tweeks to html, css and javaScript
+to create responsive design for website`, `React-TypeScript & redux with scss for portals.`]
+
+export const cashewUrl=`https://www.cashewpayments.com`
+
+export const philDesc =  [`Website built with wordpress & Joomla`, `Online shop done with wooCommerce `]
+
+export const dashbordDesc = [`Dashboard design implemented with react-typeScript, chakra-ui and recharts`]
