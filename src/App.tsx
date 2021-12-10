@@ -3,11 +3,16 @@ import {
   ChakraProvider,
   theme,
 } from "@chakra-ui/react"
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Portfolio from "./containers/Portfolio"
 
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    <Portfolio />
+    <Router>
+      <Routes>
+        <Route path='/' element={<Portfolio />} />
+      </Routes>
+    </Router>
   </ChakraProvider>
 )
