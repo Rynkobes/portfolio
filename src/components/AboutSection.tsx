@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Text, Divider, Progress } from '@chakra-ui/react'
+import { Flex, Text, Divider } from '@chakra-ui/react'
 import Icon from './Icon'
 import bulb from '../assets/bulb.png'
 import speed from '../assets/speed.png'
@@ -7,16 +7,17 @@ import devices from '../assets/device.png'
 import dynamicArrow from '../assets/dynamicArrow.png'
 import { fastContent, dynamicText, intuitiveText, responsiveText, introMessage } from '../content'
 import BioCard from './BioCard'
-import Skill from './Skill'
 
 
 const AboutSection: React.FC = () => {
   return (
     <Flex p={10}
+    id='about'
     flexDir='column'
     w='100%'
     ml='auto'
     mr='auto'
+    bgColor='#e2e2e263'
     >
       <Flex
         flexDir='column'
@@ -25,24 +26,29 @@ const AboutSection: React.FC = () => {
         mt={5}
         mb={5}
     >
-        <Text fontSize={40} fontWeight={400} color='#5f5a5a'>ABOUT</Text>
-        <Divider w={20} borderColor='#3d3b3b' border='3px' />
+        <Text fontSize={30} fontWeight={400} color='#5f5a5a'>About</Text>
+        <Divider w='40px' borderColor='#3d3b3b' border='3px' mt={1} />
       </Flex>
+      <BioCard content={introMessage} />
       <Flex
         justify='space-between'
-       m={20}
+       mt={20}
+       ml={20}
+       mr={20}
+       mb={5}
       >
         <Icon name={speed} title='Fast' body={fastContent} />
         <Icon name={devices} title='Responsive' body={responsiveText} />
         <Icon name={bulb} title='Intuitive' body={intuitiveText} />
         <Icon name={dynamicArrow} title='Dynamic' body={dynamicText}/>
       </Flex>
-      <Flex m={20}>
-        <BioCard content={introMessage} />
-        <Flex ml={5}>
-          <Skill />
-        <Progress value={80} colorScheme='green' borderRadius={8}/>
-        </Flex>
+      <Flex 
+        mt={20}
+        ml={20}
+        mr={20}
+        mb={5}
+        flexDir='column'
+      >
       </Flex>
     </Flex>
   )
