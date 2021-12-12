@@ -10,9 +10,10 @@ const NavBar = () => {
     bgColor='#122349'
     borderBottom='3px solid #0099ff'
     top={0}
+    h='9vh'
     position='sticky'
     >
-      <NavItem link='Home' linkSection='/'/>
+      <NavItem link='Home' linkSection='#'/>
       <NavItem link='About' linkSection='#about'/>
       <NavItem link='Skills' linkSection='#skills' />
       <NavItem link='Portfilio' linkSection='#portfolio'/>
