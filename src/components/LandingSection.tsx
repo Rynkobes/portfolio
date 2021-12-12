@@ -10,7 +10,7 @@ const LandingSection: React.FC = () => {
     <Flex 
       alignItems='center'
       justifyContent='center'
-      w='100%'
+      h='91vh'
     >
       <Box boxSize='200px'>
         <Image src={terryb}  
@@ -25,7 +25,8 @@ const LandingSection: React.FC = () => {
       </Box>
       <Flex
         flexDir='column'
-        ml={20}
+        ml={10}
+        p={10}
         w='40vw'
       >
         <Text as='h2' fontSize='40px' fontWeight='300' color='#6d6d6d' >
