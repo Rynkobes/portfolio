@@ -13,12 +13,7 @@ const Portfolio: React.FC = () => {
       <Flex
         flexDir='column'
       >
-        <Flex 
-          h='100vh'
-          w='100vw'
-        >
           <LandingSection />
-        </Flex>
         <NavBar />
         <AboutSection />
         <SkillCard />
