@@ -33,6 +33,8 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
       </Box>
       <Flex
         flexDir='column'
+        align='self-start'
+        justify='center'
       >
         <Text fontSize='20px' fontWeight='600' pb={2}>{projectTitle}</Text>
         <Flex 
