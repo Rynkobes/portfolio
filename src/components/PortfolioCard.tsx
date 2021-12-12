@@ -22,7 +22,6 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
       borderRadius={20}
       p={10}
       bgColor='#fff'
-      justifyContent='space-between'
     >
       <Box 
         borderRadius={8}
