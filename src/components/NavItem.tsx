@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link as ReactLink} from 'react-router-dom'
 import {Link} from '@chakra-ui/react'
 
 interface NavProps {
@@ -10,13 +9,17 @@ interface NavProps {
 const NavItem: React.FC<NavProps> = ({link, linkSection}) => {
 
   return (
-    <Link as={ReactLink}
+    <Link 
     color='#fff'
-    to={linkSection}
+    href={linkSection}
     p={5}
     _hover={{
       borderBottom: '5px solid #0099ff',
       color: '#0099ff',
+    }}
+    _focus={{
+      color: '#fff',
+  
     }}
     >
       {link}
