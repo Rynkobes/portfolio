@@ -8,9 +8,10 @@ import { name, bio, linkedInUrl, gitHubUrl } from '../content'
 const LandingSection: React.FC = () => {
   return (
     <Flex 
+      flexDir={['column', 'row']}
       alignItems='center'
       justifyContent='center'
-      h='91vh'
+      h={['none', '91vh']}
     >
       <Box boxSize='200px'>
         <Image src={terryb}  
@@ -25,16 +26,22 @@ const LandingSection: React.FC = () => {
       </Box>
       <Flex
         flexDir='column'
-        ml={10}
+        ml={[5, 10]}
         p={10}
-        w='40vw'
+        w={[ '100%', '40%']}
       >
-        <Text as='h2' fontSize='40px' fontWeight='300' color='#6d6d6d' >
+        <Text 
+          as='h2' 
+          fontSize={['1.8rem','2.1rem']} 
+          fontWeight='300' 
+          color='#6d6d6d' >
           Terry Don Bartels
         </Text>
         <Text pt={3} pb={3} color='#696969'>{bio}</Text>
-        <Flex mt={5}>
-          <Button bgColor='#0099ff' color='#fff' mr={20}>Resume</Button>
+        <Flex
+        flexDir={['column-reverse', 'row']} 
+        mt={5}>
+          <Button bgColor='#0099ff' color='#fff' mr={20} p='1.2em' minW='6.5rem'>Resume</Button>
           <Flex>
             <Link href={linkedInUrl} isExternal>
               <Flex ml={5} boxShadow='md' boxSize='40px' align='center' justify='center' color='#0099ff' ><AiFillLinkedin size='25px' /></Flex>
