@@ -10,27 +10,25 @@ const SkillCard: React.FC = () => {
   return (
     <Flex
       flexDir='column'
-      ml={20}
+      w='100%'
+      maxW='1080px'
+      m='auto'
       mb={40}
-      mr={20}
       id='skills'
-    >
+      >
       <Flex
         flexDir='column'
         align='center'
-        justify='center'
         mt={20}
         mb={10}
-    >
+        >
         <Text fontSize={30} fontWeight={400} color='#5f5a5a'>Skills</Text>
         <Divider w='30px' borderColor='#3d3b3b' border='3px' mt={1} />
       </Flex>
-      <Grid 
+      <Grid
       boxShadow='md'
-      pt={10}
-      pl={10}
-      pb={10}
-      alignItems='center'
+      w='100%'
+      p='4rem 0'
       templateColumns='repeat(5, 1fr)'
       gap={8}
     >
