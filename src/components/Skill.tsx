@@ -12,6 +12,7 @@ const Skill: React.FC<SkillProps> = ({children, text}) => {
       flexDir='column'
       boxSize='90px'
       w='90px'
+      m='0 auto'
       borderRadius={8}
       align='center'
       justifyContent='center'

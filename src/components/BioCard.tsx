@@ -10,12 +10,11 @@ const BioCard: React.FC<BioCardProps> = ({content}) => {
     <Flex
       flexDir='column'
       boxShadow='lg'
-      mb={10}
-      ml={10}
-      mr={10}
+      m='10px auto'
       p={5}
       bgColor='#fff'
       borderRadius='10px'
+      maxW='1080px'
     >
       <Text align='center' fontSize='30px' color='#5f5a5a'>Who is Terry ?</Text>
       <Text fontSize='16px' fontWeight='300' color='#5f5a5a' p={5}>{content}</Text>
