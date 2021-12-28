@@ -19,7 +19,7 @@ export const dynamicText = `Websites don't have to be static, I love making page
 
 export const introMessage = `Im a Front-End web Developer who is enthusiastic about learning and solving 
 problems through code. My education, training and experience gives me a strong foundation for web development
-and building complex solutions. I am always excieted to work alongside other amazing 
+and building complex solutions. I am always excited to work alongside other amazing 
 engineers and to learn so much more.
 `
 
