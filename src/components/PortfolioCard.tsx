@@ -15,11 +15,13 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
 }) => {
   return (
     <Flex
+      flexDir={['column', 'row']}
       mb={20}
       ml={20}
       mr={20}
       boxShadow='md'
       borderRadius={20}
+      // border='1px solid green'
       p={10}
       bgColor='#fff'
     >
