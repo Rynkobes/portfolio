@@ -17,7 +17,7 @@ export const responsiveText = `My layouts will work on any device, big or small.
 export const intuitiveText = `Strong preference for easy to use, intuitive UX/UI.`
 export const dynamicText = `Websites don't have to be static, I love making pages come to life.`
 
-export const introMessage = `Im a Front-End web Developer who is enthusiastic about learning and solving 
+export const introMessage = `I'm a Front-End web Developer who is enthusiastic about learning and solving 
 problems through code. My education, training and experience gives me a strong foundation for web development
 and building complex solutions. I am always excited to work alongside other amazing 
 engineers and to learn so much more.
