@@ -6,6 +6,7 @@ import { name, bio, linkedInUrl, gitHubUrl } from '../content'
 
 
 const LandingSection: React.FC = () => {
+  const resume = `https://drive.google.com/file/d/1ewh9CppWcA5UTxF1nl-iIZtm9IiDce0l/view?usp=sharing`
   return (
     <Flex 
       flexDir={['column', 'row']}
@@ -41,7 +42,15 @@ const LandingSection: React.FC = () => {
         <Flex
         flexDir={['column-reverse', 'row']} 
         mt={5}>
-          <Button bgColor='#0099ff' color='#fff' mr={20} p='1.2em' minW='6.5rem'>Resume</Button>
+          <Button 
+            bgColor='#0099ff' 
+            as={Link}
+            href={resume} 
+            isExternal
+            color='#fff' 
+            mr={20} 
+            p='1.2em' 
+            minW='6.5rem'>Resume</Button>
           <Flex>
             <Link href={linkedInUrl} isExternal>
               <Flex ml={5} boxShadow='md' boxSize='40px' align='center' justify='center' color='#0099ff' ><AiFillLinkedin size='25px' /></Flex>
