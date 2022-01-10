@@ -43,10 +43,10 @@ const LandingSection: React.FC = () => {
         flexDir={['column-reverse', 'row']} 
         mt={5}>
           <Button 
-            bgColor='#0099ff' 
             as={Link}
-            href={resume} 
             isExternal
+            bgColor='#0099ff' 
+            href={resume} 
             color='#fff' 
             mr={20} 
             p='1.2em' 
