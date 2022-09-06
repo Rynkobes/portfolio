@@ -5,13 +5,12 @@ import NavItem from './NavItem'
 const NavBar = () => {
   return (
     <Flex 
-    align='center'
-    justify='center'
-    bgColor='#122349'
-    borderBottom='3px solid #0099ff'
-    top={0}
-    h='9vh'
-    position='sticky'
+      d={['none', 'flex']}
+      align='center'
+      justify='center'
+      bgColor='#122349'
+      top={0}
+      position='sticky'
     >
       <NavItem link='Home' linkSection='#'/>
       <NavItem link='About' linkSection='#about'/>
