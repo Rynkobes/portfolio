@@ -11,7 +11,8 @@ import BioCard from './BioCard'
 
 const AboutSection: React.FC = () => {
   return (
-    <Flex p={10}
+    <Flex
+      p={[8, 10]}
     id='about'
     flexDir='column'
     w='100%'
@@ -23,10 +24,10 @@ const AboutSection: React.FC = () => {
         flexDir='column'
         align='center'
         justify='center'
-        mt={5}
+        mt={[0, 5]}
         mb={5}
     >
-        <Text fontSize={30} fontWeight={400} color='#5f5a5a'>About</Text>
+        <Text fontSize={['1.4rem', '2rem']} fontWeight={400} color='#5f5a5a'>About</Text>
         <Divider w='40px' borderColor='#3d3b3b' border='3px' mt={1} />
       </Flex>
       <BioCard content={introMessage} />
