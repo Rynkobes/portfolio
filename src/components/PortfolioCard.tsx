@@ -23,11 +23,11 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
       borderRadius={20}
       p={[8, 10]}
       bgColor='#fff'
-    >
-      <Box 
+      >
+      <Box
         borderRadius={8}
-        mr={10}
-        border='2px solid #62626250'
+        mr={[0,10]}
+        border='1px solid #62626250'
       >
         <Image src={imgUrl} w={['','40vw']} />
       </Box>
@@ -36,11 +36,11 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
         align='self-start'
         justify='center'
       >
-        <Text fontSize={['1.1rem','20px']} fontWeight='600' pb={2}>{projectTitle}</Text>
+        <Text fontSize={['15px','20px']} fontWeight='600' pb={2}>{projectTitle}</Text>
         <Flex 
           align='baseline'
         >
-          <Text fontSize={['16px','17px']} fontWeight='600' pr={2} pb={2}>Technologies Used: </Text>
+          <Text fontSize={['15px','17px']} fontWeight='600' pr={2} pb={2}>Technologies Used: </Text>
           <Text fontWeight='700' fontSize={['0.9rem']} color='#0322ad'>{tech}</Text>
         </Flex>
         <UnorderedList>

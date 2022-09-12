@@ -13,13 +13,13 @@ const PortfolioSection = () => {
       flexDir='column'
       id='portfolio'
       bgColor='#e2e2e263'
-      pt={20}
+      pt={[10,20]}
     >
       <Flex
         flexDir='column'
         align='center'
         justify='center'
-        mb={20}
+        mb={[10,20]}
     >
         <Text fontSize={30} fontWeight={400} color='#5f5a5a'>Portfolio</Text>
         <Divider w='50px' borderColor='#3d3b3b' border='3px' mt={1}/>
