@@ -18,7 +18,7 @@ const AboutSection: React.FC = () => {
     w='100%'
     ml='auto'
     mr='auto'
-    bgColor='#e2e2e263'
+      bgColor='#e2e2e263'
     >
       <Flex
         flexDir='column'
@@ -32,24 +32,15 @@ const AboutSection: React.FC = () => {
       </Flex>
       <BioCard content={introMessage} />
       <Flex
-        justify='space-between'
-       mt={20}
-       ml={20}
-       mr={20}
-       mb={5}
+        flexDir={['column', 'row']}
+        justify={['', 'space-around']}
+        p={['none', '3rem']}
+        m={['none', '3.5rem auto']}
       >
         <Icon name={speed} title='Fast' body={fastContent} />
         <Icon name={devices} title='Responsive' body={responsiveText} />
         <Icon name={bulb} title='Intuitive' body={intuitiveText} />
         <Icon name={dynamicArrow} title='Dynamic' body={dynamicText}/>
-      </Flex>
-      <Flex 
-        mt={20}
-        ml={20}
-        mr={20}
-        mb={5}
-        flexDir='column'
-      >
       </Flex>
     </Flex>
   )

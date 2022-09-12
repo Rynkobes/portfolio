@@ -16,13 +16,12 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
   return (
     <Flex
       flexDir={['column', 'row']}
-      mb={20}
-      ml={20}
-      mr={20}
+      mb={[10,20]}
+      ml={[8,20]}
+      mr={[8,20]}
       boxShadow='md'
       borderRadius={20}
-      // border='1px solid green'
-      p={10}
+      p={[8, 10]}
       bgColor='#fff'
     >
       <Box 
@@ -30,19 +29,19 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({
         mr={10}
         border='2px solid #62626250'
       >
-        <Image src={imgUrl} w='40vw'/>
+        <Image src={imgUrl} w={['','40vw']} />
       </Box>
       <Flex
         flexDir='column'
         align='self-start'
         justify='center'
       >
-        <Text fontSize='20px' fontWeight='600' pb={2}>{projectTitle}</Text>
+        <Text fontSize={['1.1rem','20px']} fontWeight='600' pb={2}>{projectTitle}</Text>
         <Flex 
           align='baseline'
         >
-          <Text fontSize='17px' fontWeight='600' pr={2} pb={2}>Technologies Used: </Text>
-          <Text fontWeight='700' color='#0322ad'>{tech}</Text>
+          <Text fontSize={['16px','17px']} fontWeight='600' pr={2} pb={2}>Technologies Used: </Text>
+          <Text fontWeight='700' fontSize={['0.9rem']} color='#0322ad'>{tech}</Text>
         </Flex>
         <UnorderedList>
         {
