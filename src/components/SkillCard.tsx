@@ -11,9 +11,10 @@ const SkillCard: React.FC = () => {
     <Flex
       flexDir='column'
       w='100%'
+      boxShadow={'lg'}
       maxW='1080px'
-      m='auto'
-      mb={40}
+      m={'auto'}
+      mb={20}
       id='skills'
     >
       <Flex
