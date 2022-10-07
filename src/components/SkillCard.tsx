@@ -2,7 +2,7 @@ import React from 'react'
 import { Grid } from '@chakra-ui/layout'
 import { Flex, Text, Divider, Image } from '@chakra-ui/react'
 import {FaHtml5, FaCss3, FaReact, FaNodeJs, FaGitAlt, FaSass, FaAngular, FaBootstrap, FaWordpress} from 'react-icons/fa'
-import {SiJavascript, SiRedux, SiGraphql, SiTypescript, SiWebpack,SiDocker } from 'react-icons/si'
+import {SiJavascript, SiRedux, SiGraphql, SiTypescript, SiWebpack,SiDocker, SiMongodb, SiMysql, SiNeo4J } from 'react-icons/si'
 import Skill from './Skill'
 import chakraUi from '../assets/chakraUi.svg'
 
@@ -74,6 +74,15 @@ const SkillCard: React.FC = () => {
       </Skill>
       <Skill text='Chakra-ui'>
         <Image src={chakraUi} w='50px' />
+      </Skill>
+      <Skill text='MySQL'>
+        <SiMysql size='50px' color='#F29111'/>
+      </Skill>
+      <Skill text='Neo4j'>
+        <SiNeo4J size='50px' color='#018BFF'/>
+      </Skill>
+      <Skill text='MongoDB'>
+        <SiMongodb size='50px' color='#4db33d'/>
       </Skill>
       <Skill text='Wordpress'>
         <FaWordpress size='50px' color='#00749C'/>
