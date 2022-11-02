@@ -26,7 +26,11 @@ engineers and to learn so much more.
 export const cashewDesc = [ `Uses webflow with tweeks to html, css and javaScript
 to create responsive design for website`, `React-TypeScript & redux with scss for portals.`]
 
-export const cashewUrl=`https://www.cashewpayments.com`
+export const cashewUrl = `https://www.cashewpayments.com`
+
+export const blackoUrl = `https://www.blacksherifworld.com`
+
+export const blackoDesc = [`Personal Website for renound artiste Black Sherif`]
 
 export const philDesc =  [`Website built with wordpress & Joomla`, `Online shop done with wooCommerce `]
 
