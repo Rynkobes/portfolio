@@ -2,10 +2,10 @@ import React from 'react'
 import { Flex, Text, Divider } from '@chakra-ui/react'
 import PortfolioCard from './PortfolioCard'
 import cashew from '../assets/cashew.png'
-import evalu8 from '../assets/evalu8.png'
+import blacksherief from '../assets/blacksherief.png'
 import philjoe from '../assets/philJoe.png'
 import dashboard from '../assets/dashboard.png'
-import { cashewDesc, cashewUrl, dashbordDesc, philDesc } from '../content'
+import { blackoDesc, blackoUrl, cashewDesc, cashewUrl, dashbordDesc, philDesc } from '../content'
 
 const PortfolioSection = () => {
   return (
@@ -32,12 +32,11 @@ const PortfolioSection = () => {
         desc={cashewDesc}
       />
       <PortfolioCard 
-        projectTitle='Evalu8'
-        url=''
-        imgUrl={evalu8}
-        tech='React, Typescript, Redux, Formik, react-touter, chakra-ui'
-        repoUrl='https://github.com/Rynkobes/evalu8'
-        desc={cashewDesc}
+        projectTitle='Black Sherif Website'
+        url={blackoUrl}
+        imgUrl={blacksherief}
+        tech='Webflow with HTML5, Scss, JavaScript'
+        desc={blackoDesc}
       />
       <PortfolioCard 
       projectTitle='Phil and Joe shoes website'
