@@ -6,7 +6,7 @@ import { name, bio, linkedInUrl, gitHubUrl } from '../content'
 
 
 const LandingSection: React.FC = () => {
-  const resume = `https://drive.google.com/file/d/1uYZAnJxkM5SPo3LazRyIGqKmNG37CvSK/view?usp=sharing`
+  const resume = `https://drive.google.com/file/d/1Di62U9w-3L7gwCuoFMIPOa6MoOqAnVuh/view?usp=share_link`
   return (
     <Flex 
       flexDir={['column', 'row']}
