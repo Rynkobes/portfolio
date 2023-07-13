@@ -17,7 +17,7 @@ const BioCard: React.FC<BioCardProps> = ({content}) => {
       maxW='1080px'
     >
       <Text align='center' fontSize={['1.4rem', '2rem']} color='#5f5a5a'>Who is Terry ?</Text>
-      <Text fontSize='16px' fontWeight='300' color='#5f5a5a' p={5}>{content}</Text>
+      <Text fontSize='16px' fontWeight='300' color='#5f5a5a' p={5} whiteSpace="pre-line" >{content}</Text>
     </Flex>
   )
 }
