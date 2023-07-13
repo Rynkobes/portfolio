@@ -20,7 +20,7 @@ export const dynamicText = `Websites don't have to be static, I love making page
 export const introMessage = `Passionate and results-driven professional with a strong track record in Software Engineering. 
 I thrive on nurturing and inspiring talent, building high-performing teams, and leveraging technology to solve complex problems. 
 With a focus on delivering high-quality digital products (Web, Mobile & Voice), I effectively lead the end-to-end development 
-process while mentoring and empowering other engineers.
+process while mentoring and empowering other engineers."\b"
 
 I disrupt the status quo by encouraging everyone to aspire to be world-class by thinking big, working smart, 
 having fun and always raising the bar. I firmly believe that continuous learning is the key to success in the 
